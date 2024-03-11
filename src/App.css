@@ -15,8 +15,14 @@
 
 .container{
   color: white;
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out ;
-  opacity: 0;
-  transform: translateX(-100%);
+  font-size: 30px;
+  /* animation: revealtext 2s ease-in-out 1s  1 forwards; */
+}
+
+@keyframes revealtext{
+  100%{
+    color: white;
+  }
+  
 }
 
